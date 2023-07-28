@@ -1,4 +1,4 @@
-# Import local module
+# Generate module from local file
 A Python package to dynamically create module from local Python file.
 
 # Install
