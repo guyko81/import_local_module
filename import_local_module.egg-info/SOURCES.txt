@@ -1,9 +1,0 @@
-LICENSE
-README.md
-setup.py
-import_local_module/__init__.py
-import_local_module/import_local_module.py
-import_local_module.egg-info/PKG-INFO
-import_local_module.egg-info/SOURCES.txt
-import_local_module.egg-info/dependency_links.txt
-import_local_module.egg-info/top_level.txt

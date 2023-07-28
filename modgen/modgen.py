@@ -1,4 +1,4 @@
-def import_local_module(module_name, module_location):
+def create(module_name, module_location):
     import sys
     import types
     import importlib.machinery
