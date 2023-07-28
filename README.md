@@ -1,12 +1,18 @@
 # Import local module
-A Python package to dynamically import local Python modules.
+A Python package to dynamically create module from local Python file.
 
-It let's you import modules from Python files sitting anywhere.
-
+# Install
 ```
+pip install modgen
+```
+# Usage
+```
+import modgen
 module_name = 'my_selected_module_name'
 module_location = 'path/to/my/module/file.py'
-import_local_module(module_name, module_location)
-
+modgen.create(module_name, module_location)
+```
+From this point you can import your file with the selected module name:
+```
 import my_selected_module_name
 ```
