@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: import-local-module
+Version: 0.1
+Summary: A Python package to dynamically import local Python modules.
+Home-page: https://github.com/guyko81/import_local_module
+Author: Gabor Gulyas
+License-File: LICENSE
