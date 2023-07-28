@@ -1,5 +1,5 @@
 # Generate module from local file
-A Python package to dynamically create module from local Python file.
+A Python package to dynamically create module from local or remote Python file.
 
 # Install
 ```
@@ -10,6 +10,7 @@ pip install modgen
 import modgen
 module_name = 'my_selected_module_name'
 module_location = 'path/to/my/module/file.py'
+# or module_location = 'https://path/to/my/module/file.py'
 modgen.create(module_name, module_location)
 ```
 From this point you can import your file with the selected module name:
